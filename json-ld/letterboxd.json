@@ -1,0 +1,41 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://letterboxd.com",
+  "name": "Letterboxd",
+  "description": "Letterboxd is a social film diary platform providing a REST API for accessing film metadata, user reviews, watchlists, ratings, member activity, log entries, lists, and film festival coverage.",
+  "url": "https://letterboxd.com",
+  "sameAs": [
+    "https://github.com/Letterboxd",
+    "https://news.letterboxd.com/"
+  ],
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "email": "api@letterboxd.com",
+    "contactType": "API Support"
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Letterboxd API",
+    "description": "REST API providing access to Letterboxd film data, member profiles, watchlists, ratings, diary log entries, user-created lists, contributors, editorial stories, and cross-catalog search.",
+    "url": "https://letterboxd.com/api-beta/",
+    "offers": {
+      "@type": "Offer",
+      "name": "Letterboxd API Access",
+      "description": "API access granted by application only. Developers must email api@letterboxd.com with their use case.",
+      "url": "https://letterboxd.com/api-beta/"
+    }
+  },
+  "termsOfService": "https://letterboxd.com/legal/terms-of-use/",
+  "privacyPolicy": "https://letterboxd.com/legal/privacy-notice/",
+  "knowsAbout": [
+    "Film",
+    "Movies",
+    "Social Reviews",
+    "Watchlists",
+    "Film Ratings",
+    "Film Diaries",
+    "Film Festivals",
+    "Entertainment"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "aid": "letterboxd",
+  "name": "Letterboxd Blog",
+  "url": "https://news.letterboxd.com/",
+  "rss": "https://news.letterboxd.com/feed/",
+  "description": "Official Letterboxd news blog covering product updates, film features, member highlights, and platform announcements.",
+  "lastFetched": "2026-06-13",
+  "posts": []
+}
