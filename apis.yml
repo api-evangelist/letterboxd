@@ -1,0 +1,86 @@
+aid: letterboxd
+name: Letterboxd
+description: >-
+  Letterboxd is a social film diary platform providing a REST API for accessing
+  film metadata, user reviews, watchlists, ratings, member activity, log entries,
+  lists, and film festival coverage. The API is available by request only and
+  uses OAuth2 for authentication, supporting both public data access via Client
+  Credentials and member-authenticated operations via Authorization Code flow.
+  Developers can query films, members, log entries, lists, contributors, and
+  search across the full Letterboxd catalog.
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: https://raw.githubusercontent.com/api-evangelist/letterboxd/refs/heads/main/apis.yml
+created: '2026-06-13'
+modified: '2026-06-13'
+specificationVersion: '0.19'
+type: Index
+tags:
+  - Film
+  - Movies
+  - Social
+  - Reviews
+  - Watchlist
+  - Ratings
+  - Diary
+  - Film Festival
+  - Entertainment
+apis:
+  - name: Letterboxd API
+    description: >-
+      REST API providing access to Letterboxd film data, member profiles,
+      watchlists, ratings, diary log entries, user-created lists, contributors,
+      editorial stories, and cross-catalog search. The base URL is
+      https://api.letterboxd.com/api/v0. Access is granted by application
+      only; developers must email api@letterboxd.com with their use case.
+      Authentication uses OAuth2 Client Credentials for public data and
+      Authorization Code for member-specific operations.
+    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://letterboxd.com/api-beta/
+    baseURL: https://api.letterboxd.com/api/v0
+    tags:
+      - Film
+      - Movies
+      - Social
+      - Reviews
+      - Watchlist
+      - Ratings
+      - Log Entries
+      - Lists
+      - Members
+      - Search
+    properties:
+      - type: Documentation
+        url: https://api-docs.letterboxd.com/
+      - type: OpenAPI
+        url: https://api-docs.letterboxd.com/
+      - type: Authentication
+        url: https://letterboxd.com/api-beta/
+      - type: TermsOfService
+        url: https://letterboxd.com/legal/terms-of-use/
+      - type: PrivacyPolicy
+        url: https://letterboxd.com/legal/privacy-notice/
+      - type: Plans
+        url: https://raw.githubusercontent.com/api-evangelist/letterboxd/refs/heads/main/plans/plans.yml
+      - type: RateLimits
+        url: https://raw.githubusercontent.com/api-evangelist/letterboxd/refs/heads/main/rate-limits/rate-limits.yml
+      - type: FinOps
+        url: https://raw.githubusercontent.com/api-evangelist/letterboxd/refs/heads/main/finops/finops.yml
+    contact:
+      - FN: Letterboxd API Support
+        email: api@letterboxd.com
+common:
+  - type: GitHub
+    url: https://github.com/Letterboxd
+  - type: Blog
+    url: https://news.letterboxd.com/
+  - type: TermsOfService
+    url: https://letterboxd.com/legal/terms-of-use/
+  - type: PrivacyPolicy
+    url: https://letterboxd.com/legal/privacy-notice/
+  - type: FAQ
+    url: https://letterboxd.com/about/faq/
+  - type: Contact
+    url: https://letterboxd.com/about/
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com

@@ -1,0 +1,22 @@
+finops:
+  model: Free (Application-Based Access)
+  description: >-
+    The Letterboxd API does not have a public pricing model with tiered plans
+    or pay-per-use fees. Access is provided free of charge to approved developers
+    whose use cases align with Letterboxd's guidelines. There is no self-service
+    sign-up or commercial API marketplace listing. Access is granted on a
+    case-by-case basis following a review of the submitted use case.
+  costStructure:
+    - tier: Approved Developer Access
+      cost: Free
+      conditions: >-
+        Must apply via email to api@letterboxd.com. Access is not guaranteed
+        and is reviewed individually. Not available for data analysis,
+        LLM/GPT use, private/personal projects, or features competing
+        with Letterboxd Pro/Patron subscription tiers.
+  notes: >-
+    Letterboxd operates a Freemium consumer product (Pro and Patron tiers)
+    but the API itself does not carry a separate developer fee structure
+    as of June 2026. Developers should confirm current terms directly
+    with Letterboxd at api@letterboxd.com.
+  url: https://letterboxd.com/api-beta/

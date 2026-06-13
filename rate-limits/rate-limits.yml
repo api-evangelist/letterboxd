@@ -1,0 +1,20 @@
+rateLimits:
+  - name: Pagination Cap
+    description: >-
+      The Letterboxd API enforces a hard limit of 100,000 objects returned
+      in paginated data responses. This limit exists to discourage copying
+      or bulk-downloading of the complete dataset.
+    limit: 100000
+    unit: objects-per-paginated-response
+  - name: API Access by Approval
+    description: >-
+      API access itself is rate-controlled at the application level — access
+      is granted individually by Letterboxd after reviewing each developer's
+      use case. Specific per-minute or per-day rate limits are determined
+      per application and are not publicly documented.
+    url: https://letterboxd.com/api-beta/
+notes: >-
+  Specific numerical rate limits (requests per minute/hour/day) are not
+  publicly disclosed by Letterboxd. Rate limit details are communicated
+  directly to approved API consumers. Consult api@letterboxd.com for
+  specifics after receiving API access.

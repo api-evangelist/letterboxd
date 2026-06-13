@@ -1,0 +1,21 @@
+plans:
+  - name: Application Access
+    description: >-
+      Access to the Letterboxd API is granted by application only. Developers
+      must email api@letterboxd.com with details of their intended use case,
+      including the title of their app or project in the subject line. Letterboxd
+      reviews all applications but cannot guarantee access or provide individual
+      replies. Access is not currently granted for data analysis, visualization,
+      recommendation projects, LLM or GPT-related use, private or personal
+      projects, or any usage that recreates features of their paid subscription
+      tiers.
+    url: https://letterboxd.com/api-beta/
+    contact: api@letterboxd.com
+    features:
+      - Film metadata access
+      - Member profile and watchlist access
+      - Log entry and diary access
+      - List management
+      - Search across full catalog
+      - OAuth2 authentication (Client Credentials and Authorization Code flows)
+      - Paginated data access (max 100,000 objects per paginated response)
