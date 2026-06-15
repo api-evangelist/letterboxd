@@ -5,5 +5,17 @@
   "rss": "https://news.letterboxd.com/feed/",
   "description": "Official Letterboxd news blog covering product updates, film features, member highlights, and platform announcements.",
   "lastFetched": "2026-06-13",
-  "posts": []
+  "posts": [],
+  "repo": "letterboxd",
+  "feeds": [
+    {
+      "source": "https://github.com/Letterboxd",
+      "feed_url": "https://github.com/Letterboxd",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-06-14T20:42:17Z"
 }
