@@ -8,7 +8,7 @@ description: >-
   Credentials and member-authenticated operations via Authorization Code flow.
   Developers can query films, members, log entries, lists, contributors, and
   search across the full Letterboxd catalog.
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 url: https://raw.githubusercontent.com/api-evangelist/letterboxd/refs/heads/main/apis.yml
 created: '2026-06-13'
 modified: '2026-06-13'
@@ -34,7 +34,7 @@ apis:
       only; developers must email api@letterboxd.com with their use case.
       Authentication uses OAuth2 Client Credentials for public data and
       Authorization Code for member-specific operations.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://letterboxd.com/api-beta/
     baseURL: https://api.letterboxd.com/api/v0
     tags:
