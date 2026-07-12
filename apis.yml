@@ -69,6 +69,8 @@ apis:
       - FN: Letterboxd API Support
         email: api@letterboxd.com
 common:
+  - type: DomainSecurity
+    url: security/letterboxd-domain-security.yml
   - type: GitHub
     url: https://github.com/Letterboxd
   - type: Blog
