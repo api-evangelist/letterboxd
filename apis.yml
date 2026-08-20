@@ -57,6 +57,17 @@ apis:
       - Watchlist
       - Ratings
       - Log Entries
+      - List
+      - Members
+      - Search
+    tags_raw:
+      - Film
+      - Movies
+      - Social
+      - Reviews
+      - Watchlist
+      - Ratings
+      - Log Entries
       - Lists
       - Members
       - Search
