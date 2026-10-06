@@ -31,7 +31,7 @@ accessModel:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/letterboxd.png
 url: https://raw.githubusercontent.com/api-evangelist/letterboxd/refs/heads/main/apis.yml
 created: '2026-06-13'
-modified: '2026-09-16'
+modified: '2026-10-06'
 specificationVersion: '0.23'
 type: Index
 tags:
@@ -97,6 +97,10 @@ apis:
   - FN: Letterboxd API Support
     email: api@letterboxd.com
 common:
+- url: https://letterboxd.com/journal/
+  type: Blog
+- url: https://letterboxd.com/journal/rss/
+  type: BlogRSS
 - type: Website
   url: https://letterboxd.com
 - type: DomainSecurity
