@@ -23,3 +23,15 @@ plans:
       - Search across full catalog
       - OAuth2 authentication (Client Credentials and Authorization Code flows)
       - Paginated data access (max 100,000 objects per paginated response)
+x-canonical:
+  generated: '2026-10-08'
+  vocabulary: all/0-working/economics/plans-canonical.yml
+  models: []
+  units: []
+  plans:
+  - name: Application Access
+    access: other
+    model: unstated
+    model_how: derived
+    units: []
+    periods: []
