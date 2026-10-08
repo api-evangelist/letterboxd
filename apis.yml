@@ -97,6 +97,12 @@ apis:
   - FN: Letterboxd API Support
     email: api@letterboxd.com
 common:
+- type: Plans
+  url: plans/plans.yml
+- type: RateLimits
+  url: rate-limits/rate-limits.yml
+- type: FinOps
+  url: finops/finops.yml
 - url: https://letterboxd.com/journal/
   type: Blog
 - url: https://letterboxd.com/journal/rss/
