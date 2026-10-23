@@ -12,13 +12,16 @@
     },
     {
       "source": "https://letterboxd.com/journal/",
-      "error": "HTTPError"
+      "feed_url": "https://letterboxd.com/journal/rss/",
+      "title": "",
+      "saved": 0,
+      "method": "discovered"
     },
     {
       "source": "https://letterboxd.com/journal/rss/",
       "feed_url": "https://letterboxd.com/journal/rss/",
       "title": "",
-      "saved": 8,
+      "saved": 0,
       "method": "feed"
     },
     {
@@ -29,6 +32,6 @@
       "method": "none"
     }
   ],
-  "post_count": 8,
-  "fetched": "2026-10-10T13:15:00Z"
+  "post_count": 50,
+  "fetched": "2026-10-17T14:53:57Z"
 }
